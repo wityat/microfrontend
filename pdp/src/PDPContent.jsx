@@ -4,7 +4,7 @@ import { getProductById, currency } from "home/products";
 import {useParams} from "react-router-dom";
 
 export default function PDPContent() {
-    const { id } = useParams();
+    const {id}  = useParams();
   const [product, setProduct] = useState(null);
 
   useEffect(() => {
