@@ -18,7 +18,7 @@ export default function Login() {
       </span>
       {showLogin && (
         <div
-          className="p-5 border-4 border-blue-800 bg-white rounded-xl text-black"
+          className="absolute p-5 border-4 border-blue-800 bg-white rounded-xl text-black"
           style={{
             width: 300,
             top: "2rem",
